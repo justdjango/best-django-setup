@@ -15,6 +15,8 @@ Django = "==2.2.6"
 django-environ = "*"
 boto3 = "*"
 django-storages = "*"
+psycopg2-binary = "*"
+gunicorn = "*"
 
 [requires]
 python_version = "3.7"
