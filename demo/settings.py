@@ -6,7 +6,7 @@ env = environ.Env()
 DEBUG = env.bool('DEBUG')
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 SECRET_KEY = env('SECRET_KEY')
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost']
 
 INSTALLED_APPS = [
     'django.contrib.admin',
@@ -66,6 +66,9 @@ DATABASES = {
 }
 
 if DEBUG is False:
+
+    ALLOWED_HOSTS = ['django.mycaprover.justdjango.com']
+
     SESSION_COOKIE_SECURE = True
     SECURE_BROWSER_XSS_FILTER = True
     SECURE_CONTENT_TYPE_NOSNIFF = True
