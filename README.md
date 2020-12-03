@@ -15,8 +15,6 @@
   <a href="https://justdjango.com?utm_source=github"><img src="https://github.com/justdjango/best-django-setup/blob/master/thumbnail.png" width="290"></a>
 </p>
 
-[![alt text](https://github.com/justdjango/best-django-setup/blob/master/thumbnail.png "Logo")](https://justdjango.com)
-
 This project is configured for:
 
 1. Python version management with pyenv
